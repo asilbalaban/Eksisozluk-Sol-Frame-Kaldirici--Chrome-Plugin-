@@ -1,0 +1,10 @@
+{
+  "name": "Eksi",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Eksi Sözlük Sidebar Siler",
+  "content_scripts": [ {
+    "js": ["content.js"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
